@@ -7,10 +7,14 @@ using namespace std;
 class Student{
 public:
   Student();
-  char name[31];
-  float gpa = 4.00;
+  char fname[31];
+  char lname[31];
+  float id;
+  float gpa;
   float getGPA();
-  char* getName();
+  float getID();
+  char* getlName();
+  char* getfName();
 };
 
 #endif
